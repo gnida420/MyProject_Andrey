@@ -1,10 +1,10 @@
 #include <iostream>
 
-int pid()
+int main()
 {
     int i, j;
-    std::cout << "Enter values\n";
-    std::cin >> i;
-    std::cin >> j;
-    return i + j;
+    std::cout << "Hello World!\n";
+    i = 2;
+    j = 4;
+    return j - i;
 }
